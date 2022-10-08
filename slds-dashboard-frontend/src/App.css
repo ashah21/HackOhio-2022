@@ -51,15 +51,18 @@
 }
 
 .table_title_student {
-    width: 30vw;
+    width: 10vw;
+    text-align: left;
 }
 
 .table_title_disability {
-    width: 80vw;
+    width: 30vw;
+    text-align: left;
 }
 
 .table_title_accommodations {
-    width: 80vw;
+    width: 40vw;
+    text-align: left;
 }
 
 .studentEntry:hover {
@@ -69,6 +72,7 @@
 .rowText {
     margin-top: 2px;
     margin-bottom: 2px;
+    text-align: left;
 }
 
 table {

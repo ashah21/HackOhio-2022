@@ -10,7 +10,7 @@ class App extends Component {
                 {
                     name: "Evan Cowin",
                     disability: "ADHD",
-                    accommodations: "Adderall"
+                    accommodations: "Adderallfewfwefwef"
                 },
                 {
                     name: "Annie Hu",
