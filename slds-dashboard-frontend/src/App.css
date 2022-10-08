@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.studentTableContainer {
+    padding-left: 10px;
+    position: absolute;
+    width: 80vw;
+    border: 3px solid #c9c9c9;
+    border-radius: 3px;
+}
+
+.table_title_student {
+    width: 30vw;
+}
+
+.table_title_disability {
+    width: 80vw;
+}
+
+.table_title_accommodations {
+    width: 80vw;
+}
+
+.studentEntry:hover {
+    background-color: rgba(51, 173, 236, 0.5);
+}
+
+.rowText {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+    width: 7vw;
+    text-align: left;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #DDD;
+    font-size: 15px;
+}
+
+td {
+    width: 7vw;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+    font-size: 15px;
+}
