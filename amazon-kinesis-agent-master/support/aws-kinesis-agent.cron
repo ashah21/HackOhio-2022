@@ -1,1 +1,0 @@
-* * * * * root /usr/bin/aws-kinesis-agent-babysit > /dev/null 2>&1
