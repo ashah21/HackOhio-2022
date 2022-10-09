@@ -1,0 +1,73 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "OSU Assist will help invoke Alexa to help with OSU accommodations intent",
+          "examplePhrases": [
+            "Alexa open osu inclusivity",
+            "Alexa open accommodations",
+            "Alex what do I need to do for this class"
+          ],
+          "keywords": [
+            "accommodations",
+            "inclusivity",
+            "help"
+          ],
+          "name": "OSU Assist",
+          "description": "OSU Assist helps assists Professors in class to remind them if a student needs accommodations and more information.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "System Requirments: Professor buckid\nTo begin, say \"Alexa open osu inclusivity\"",
+      "category": "COMMUNICATION",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:452633332815:function:442b6cb6-578a-4b83-8f10-1526021c345a:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:452633332815:function:442b6cb6-578a-4b83-8f10-1526021c345a:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:452633332815:function:442b6cb6-578a-4b83-8f10-1526021c345a:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:452633332815:function:442b6cb6-578a-4b83-8f10-1526021c345a:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
